@@ -1,0 +1,49 @@
+.perks {
+    min-height: 473px;
+    &__wrapper {             
+        margin-top: 84px; 
+    }
+    &__header {       
+        width: 381px;
+        color: #0D0D0D;
+        margin: 0 auto;
+        text-align: center;       
+        font-size: 30px;        
+        font-weight: 700;
+        line-height: 30px; /* 100% */
+    }
+    &__blocks {
+        display: inline-flex;
+        padding-top: 5px;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 269px;
+    }
+    &__block {
+        padding: 66px 5px 0 5px;
+        img {
+            margin: 0 auto;
+            width: 70px;
+            height: 70px;
+        }
+    }
+    &__title {
+        margin-top: 30px;
+        width: 226px;
+        color: #0D0D0D;
+        text-align: center;        
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    &__text {
+        color: #0D0D0D;
+        text-align: justify;        
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 18px; /* 128.571% */
+    }
+    
+}

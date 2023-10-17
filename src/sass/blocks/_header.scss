@@ -23,10 +23,15 @@
         text-align: right;        
         font-size: 18px;
         font-weight: 700;
+        text-decoration: none;
         &:hover {
-            color:#FFF;
-            text-decoration: none;
-        }      
+            color: #c4c4c4;            
+        }        
+    }
+    &__contacts {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
     }
 }
 
